@@ -19,8 +19,11 @@ ResNet은 CNN Network이며 깊은 망을 더 쉽게 학습하기 위해 개발�
 
 ### YOLOv8 (You Only Look Once) 
 YOLO는 실시간 객체 인식을 위한 혁신적인 방법론이다. YOLOv8은 빠르고 정확하며 사용하기 쉽게 설계되어 다양한 객체 탐지 및 추적, 인스턴스 분할, 이미지 분류 및 포즈추정과 같은 작업이 가능하다.
-YOLO 이전 버전과 비교할 때 보다 더 빠른 최첨단 성능을 제공하기 때문에 YOLOv8모델을 사용하였다.
+아래 graph는 이전 YOLO와 비교한 것이고 chart는 v8을 다양한 버전으로 비교한 것이다. YOLO 이전 버전과 비교할 때 보다 더 빠른 최첨단 성능을 제공하기 때문에 본 프로젝트는 가장 최근 모델인 YOLOv8모델을 사용하였다. 
 ![1_rMwHi1JYCf2Nu_N3QrZ76g](https://github.com/bvnohz/Classification_Fish-species/assets/141910199/9be8582e-3150-4001-847d-814db278b637)
+
+<img width="506" alt="image" src="https://github.com/bvnohz/Classification_Fish-species/assets/141910199/923cc3d6-2fee-424b-906d-b344fa57258a">
+
 
 
 
