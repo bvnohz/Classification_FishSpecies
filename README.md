@@ -12,9 +12,16 @@
 
 ### ResNet (Deep Residual Learning for Image Recognition) 
 ResNet은 CNN Network이며 깊은 망을 더 쉽게 학습하기 위해 개발된 Network이다. 네트워크 깊이가 깊어질수록 성능이 좋아지다가 어느 시점에서 오히려 성능이 나빠지는데, 이러한 문제 해결을 위해 residual block을 도입했다. residual block은 기울기가 잘 전파될 수 있도록 하는 일종의 shortcut(skip connection)을 만들어 준다.
+본 프로젝트에서는 아래와 같은 architecture로 layer를 쌓은 ResNet50 구조를 만들어 학습에 활용하였다.
+![image (1)](https://github.com/bvnohz/Classification_Fish-species/assets/141910199/06bf695c-29ed-4fd2-9660-32df2ecf26a3)
+
+
+
 ### YOLOv8 (You Only Look Once) 
 YOLO는 실시간 객체 인식을 위한 혁신적인 방법론이다. YOLOv8은 빠르고 정확하며 사용하기 쉽게 설계되어 다양한 객체 탐지 및 추적, 인스턴스 분할, 이미지 분류 및 포즈추정과 같은 작업이 가능하다.
 YOLO 이전 버전과 비교할 때 보다 더 빠른 최첨단 성능을 제공하기 때문에 YOLOv8모델을 사용하였다.
+![1_rMwHi1JYCf2Nu_N3QrZ76g](https://github.com/bvnohz/Classification_Fish-species/assets/141910199/9be8582e-3150-4001-847d-814db278b637)
+
 
 
 ## 🧮 Analysis
