@@ -1,4 +1,4 @@
-# Classification_Fish species
+# Classification_FishSpecies
 
 ## 🐟 Project Introduction
  1. 대회: 주어진 Dataset을 이용하여 인공지능 알고리즘 모델을 개발  https://aifactory.space/task/2600/overview 
