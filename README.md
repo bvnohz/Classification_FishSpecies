@@ -10,9 +10,12 @@
 ## 💡 Modeling
 본 프로젝트에서는 CNN기반 모델인 ResNet과 YOLOv8 모델을 이용하여 AI 알고리즘 모델을 개발했다.
 
+
 ### 1. ResNet (Deep Residual Learning for Image Recognition) 
 ResNet은 CNN Network이며 깊은 망을 더 쉽게 학습하기 위해 개발된 Network이다. 네트워크 깊이가 깊어질수록 성능이 좋아지다가 어느 시점에서 오히려 성능이 나빠지는데, 이러한 문제 해결을 위해 residual block을 도입했다. residual block은 기울기가 잘 전파될 수 있도록 하는 일종의 shortcut(skip connection)을 만들어 준다.
 본 프로젝트에서는 아래와 같은 architecture로 layer를 쌓은 ResNet50 구조를 만들어 학습에 활용하였다.
+
+
 ![image (1)](https://github.com/bvnohz/Classification_Fish-species/assets/141910199/06bf695c-29ed-4fd2-9660-32df2ecf26a3)
 
 
@@ -20,14 +23,19 @@ ResNet은 CNN Network이며 깊은 망을 더 쉽게 학습하기 위해 개발�
 ### 2. YOLOv8 (You Only Look Once) 
 YOLO는 실시간 객체 인식을 위한 혁신적인 방법론이다. YOLOv8은 빠르고 정확하며 사용하기 쉽게 설계되어 다양한 객체 탐지 및 추적, 인스턴스 분할, 이미지 분류 및 포즈추정과 같은 작업이 가능하다.
 아래 graph는 이전 YOLO와 비교한 것이고 chart는 v8을 다양한 버전으로 비교한 것이다. YOLO 이전 버전과 비교할 때 보다 더 빠른 최첨단 성능을 제공하기 때문에 본 프로젝트는 가장 최근 모델인 YOLOv8모델을 사용하였다. 
-![1_rMwHi1JYCf2Nu_N3QrZ76g](https://github.com/bvnohz/Classification_Fish-species/assets/141910199/9be8582e-3150-4001-847d-814db278b637)
 
+
+![1_rMwHi1JYCf2Nu_N3QrZ76g](https://github.com/bvnohz/Classification_Fish-species/assets/141910199/9be8582e-3150-4001-847d-814db278b637)
 <img width="506" alt="image" src="https://github.com/bvnohz/Classification_Fish-species/assets/141910199/923cc3d6-2fee-424b-906d-b344fa57258a">
 
 
 
 
+
+
+
 ## 🧮 Analysis
+
 
 ### 1. COCO format to YOLO format
 - COCO.json 파일을 YOLO 모델을 이용해서 학습시키기 위해서 먼저 YOLO 파일의 형식에 맞게 변환하는 작업이 필요하다.
@@ -43,7 +51,10 @@ YOLO는 실시간 객체 인식을 위한 혁신적인 방법론이다. YOLOv8�
 - Test 이미지를 넣어서 Object Detection과 그 이미지에 맞는 class, 확률 bbox의 위치를 직접 추론 결과로 볼 수 있다.
 
 
+
 ## 📑 Dataset Component 
+
+
 * train: 학습 데이터 이미지
 * test: 평가 데이터 이미지
 * labels: COCO format jason
